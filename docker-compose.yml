@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+  cmp:
+    image: jorge07/alpine-php:7-dev
+    container_name: cmp
+
+    volumes:
+      - .:/app
+
+

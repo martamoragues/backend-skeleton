@@ -1,0 +1,32 @@
+{
+  "name": "mvp",
+  "license": "proprietary",
+  "keywords": ["mvp"],
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Marta Moragues"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mvp\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "back\\Tests\\": "test/"
+    }
+  },
+  "require": {
+    "php" : "^7.0",
+    "symfony/yaml": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.1",
+    "phpunit/php-code-coverage": "^6.0.1",
+    "phpunit/php-token-stream": "^3.0"
+  }
+}
